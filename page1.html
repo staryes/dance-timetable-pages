@@ -1,69 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
+  <head>
+    <style>
 
-table {
-  border-collapse: collapse;  
-  width: 100%;
-}
+      table {
+          border-collapse: collapse;  
+          width: 100%;
+      }
 
-td, th {
-  padding: 8px; 
-  text-align: center;
-}
+      td, th {
+          padding: 8px; 
+          text-align: center;
+      }
 
-tr:nth-child(4n) td {
-  position: relative;
-}
+      /* tr:nth-child(4n) td { */
+      /*     position: relative; */
+      /* } */
 
-tr:nth-child(4n) td:after {
-  content: "";
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  bottom: 0;
-  height: 1px;
-  background: black; 
-}
+      /* tr:nth-child(4n) td:after { */
+      /*     content: ""; */
+      /*     position: absolute; */
+      /*     left: 25%; */
+      /*     right: 25%; */
+      /*     bottom: 0; */
+      /*     height: 1px; */
+      /*     background: black;  */
+      /* } */
 
-</style>  
-</head>
+    </style>  
+  </head>
 
-<body>
+  <body>
 
-<table>
-  <tr>
-    <th>Flamenco Dance Program Timetable</th>
-  </tr>
-  
-  <tr>  
-    <td>10:00 - 10:45</td>
-  </tr>
-  
-  <tr>
-    <td>Opening Dance</td>
-  </tr>
+    <table>
+      <tr>
+        <th>Flamenco Dance Program Timetable</th>
+      </tr>
+      
+      <tr>  
+        <td>10:00 - 10:45</td>
+      </tr>
+      
+      <tr>
+        <td>Opening Dance</td>
+      </tr>
 
-  <tr>
-    <td>小窩窩</td>
-  </tr>
-  
-  <tr>
-    <td>10:45 - 11:30</td>    
-  </tr>
+      <tr>
+        <td>
+          <div style="position: relative;">
+            小窩窩
+            <div style="position: absolute; left: 25%; right: 25%; bottom: -5px; height: 1px; background: black;"></div>
+            </div>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>10:45 - 11:30</td>    
+      </tr>
 
-  <tr>
-    <td>Traditional Flamenco</td>
-  </tr>
+      <tr>
+        <td>Traditional Flamenco</td>
+      </tr>
 
-  <tr>
-    <td>Hana 醬</td>
-  </tr>
+      <tr>
+        <td>
+          <div style="position: relative;">
+            Hana 醬
+            <!-- <div style="position: absolute; left: 25%; right: 25%; bottom: 0; height: 1px; background: black;"></div> -->
+            </div>
+        </td>
+      </tr>
 
-  <!-- 其他內容 -->
+      <tr>
+        <td>
+          <!-- <div style="border-top:1px solid black; padding:8px 0; border-bottom:1px solid black;"> -->
+            <div style="position: relative;">
+            <div style="position: absolute; left: 25%; right: 25%; top: 0; height: 1px; background: black;"></div>
+            中場休息
+            <div style="position: absolute; left: 25%; right: 25%; bottom: 0; height: 1px; background: black;"></div>
+            </div>
+        </td>
+      </tr>
 
-</table>
 
-</body>
+      <tr>
+        <td>11:50 - 11:80</td>    
+      </tr>
+
+      <tr>
+        <td>Flamenco</td>
+      </tr>
+
+      <tr>
+        <td>Hana 醬 & 窩窩醬</td>
+      </tr>      
+      <tr>
+        <td>  
+          <div style="position: relative;">
+            <div style="position: absolute; left: 25%; right: 25%; top: 0; height: 1px; background: black;"></div>
+            收工
+            <div style="position: absolute; left: 25%; right: 25%; bottom: 0; height: 1px; background: black;"></div>
+          </div>
+        </td>  
+      </tr>
+    </table>
+
+  </body>
 </html>

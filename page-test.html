@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+
+      td, th {
+          padding: 8px;
+          text-align: center;
+      }
+
+      td.divider, th.divider {
+          position: relative;
+      }
+
+      td.divider::before, th.divider::before {
+          content: "";
+          position: absolute;
+          left: 25%;
+          right: 25%;
+          bottom: 0;
+          height: 1px;
+          background: black;
+      }
+
+      .corner-image {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          margin-bottom: 10px; /* 调整图像距离底部的距离 */
+          margin-right: 10px; /* 调整图像距离右边的距离 */
+      }
+
+      body {
+          background-image: url('img/IMG_2665.JPG');
+          background-position: right bottom;
+          background-repeat: no-repeat;
+          background-size: 30%;
+          /* background-origin: border-box; /\* 设置背景图片的起始位置为内容框 *\/ */
+          /* background-clip: border-box; /\* 设置背景图片的裁剪区域为内容框 *\/ */
+          padding: 0;
+          margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th class="divider">Flamenco Dance Program Timetable</th>
+      </tr>
+      <tr>
+        <td>10:00 - 10:45</td>
+      </tr>
+      <tr>
+        <td>Opening Dance</td>
+      </tr>
+      <tr>
+        <td class="divider">小窩窩</td>
+      </tr>
+      <tr>
+        <td>10:45 - 11:30</td>
+      </tr>
+      <tr>
+        <td>Traditional Flamenco</td>
+      </tr>
+      <tr>
+        <td class="divider">Hana 醬</td>
+      </tr>
+      <tr>
+        <td class="divider">中場休息</td>
+      </tr>
+      <tr>
+        <td>11:50 - 11:80</td>
+      </tr>
+      <tr>
+        <td>Flamenco</td>
+      </tr>
+      <tr>
+        <td class="divider">Hana 醬 & 窩窩醬</td>
+      </tr>
+      <tr>
+        <td class="divider">收工</td>
+      </tr>
+    </table>
+
+    <!-- 在右下角添加插图 -->
+    <!-- <img src="img/00009-3001492632.png" alt="image" class="corner-image"> -->
+    
+  </body>
+</html>
