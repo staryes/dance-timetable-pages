@@ -71,16 +71,14 @@
           text-align: center;
       }
 
-      /* body { */
-      /*     background-image: url('img/387525256_2678258005660414_6197963326884652028_n.jpg'); */
-      /*     background-position: right top; */
-      /*     background-repeat: no-repeat; */
-      /*     background-size: 20%; */
-      /*     /\* background-origin: border-box; /\\* 设置背景图片的起始位置为内容框 *\\/ *\/ */
-      /*     /\* background-clip: border-box; /\\* 设置背景图片的裁剪区域为内容框 *\\/ *\/ */
-      /*     padding: 0; */
-      /*     margin: 0; */
-      /* } */
+      @font-face {
+          font-family: 'iansui'; /* 字体名称，可以自定义 */
+          src: url('Fonts/Iansui-Regular.ttf') format('truetype'); /* TTF字体文件的路径和格式 */
+      }
+
+      body {
+          font-family: 'iansui', 'Noto Sans CJK TC', sans-serif;
+      }
 
       img {
           max-width: 50%; 
